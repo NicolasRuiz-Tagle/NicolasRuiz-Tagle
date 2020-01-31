@@ -28,6 +28,6 @@ NOTE: At most one zip file can be worked on at any given time. The code does not
 
 6) Open the SQLite database browser and query the database with the reporting period of the zip file you have uploaded. Ensure that the number of records in the database (number of rows) matches the row count within the zip files extracted.
 
-7) Copy/Past the SQL query that is saved under the "SQL" folder to begin the data exporting process to PowerBI.
+7) Copy/Paste the SQL query that is saved under the "SQL" folder to begin the data exporting process to PowerBI.
 
 8) Connect to your SQLite database in PowerBI, use import data, and paste the SQL Query which will extract only the contents to be used in the Power BI Report. NOTE: you can call additional fields if necessary, I've only extracted those that I found of most importance.
